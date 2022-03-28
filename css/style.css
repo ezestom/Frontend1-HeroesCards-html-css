@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box; 
+}
+/*header*/
+
+
+
+header div p{
+    background-color: #1CD1B0;
+    font-family: "roboto";
+    font-size: 15px;
+    padding: 5px;
+    box-shadow: 0px 3px 10px 2px rgba(0, 0, 0, 0.315);
+    text-align: left;
+}
+
+
+
+header div h1{
+    background-color: #00669F;
+    font-size: 40px;
+    padding: 10px; 
+    font-family: "roboto";
+    box-shadow: 0px 3px 10px 2px rgba(0, 0, 0, 0.315);
+}
+
+nav {
+    background-color: #001D2D;
+    text-align: end;
+}
+
+a{
+    text-decoration: none;
+    font-family: "roboto";
+    font-size: 1rem;
+    color: white;
+    padding: 5px;
+}
+/*main*/
+
+body{
+
+    font-family: "roboto";        
+}
+
+main{
+    display: flex;
+    align-items: center;
+    height: 85vh;
+    justify-content: space-evenly;
+
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 550px;
+    width: 300px;
+
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    padding: 7.69%;
+}
+
+.caja1{
+    display: flex;
+    height: 193px;
+    width: 300px;
+    align-items: center;
+
+}
+
+.batman{
+    border-radius: 50%;
+    position: relative;
+    top:50%;
+    right: 78%;
+}
+
+.corazon{
+    position: relative;
+    bottom: 35%;
+    right: 95%;
+}
+
+article .caja2{
+    width: 300px;
+    height: 336px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F3F3F3;
+    text-align: center;
+    box-shadow: 0px 3px 10px 2px rgba(0, 0, 0, 0.315);
+    }
+
+    button{
+        background-color: #00669F;
+        color: white;
+        width: 130px;
+        height: 50px;
+        margin-left: 29%;
+        margin-top: 35%;
+    }
+
+
+
+
+
+
+
+
+
+
+/* parrafos y h3 */
+
+p{
+    font-size: 1rem;
+    position: relative;
+    top:20%;
+}
+
+h3{
+    font-size: 2rem;
+    position: relative;
+    top:20%;
+}
+
+
+
+
+
+
+/*footer*/
+
+
+footer{
+    background-color: #00669F;
+    font-size: 20px;
+    padding: 5px;
+    font-family: "roboto";
+    display: flex;
+    justify-content: center;
+}
+
+
